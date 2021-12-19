@@ -1,0 +1,32 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    flex: 1;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.header-wrapper .heading {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.header-wrapper input {
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.cart-btn {
+    margin-top: 20px;
+}
+
+.cart-btn button {
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 25px;
+}

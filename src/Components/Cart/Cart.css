@@ -1,0 +1,31 @@
+.menu-cart.final-cart {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-cart.final-cart .cart-item,
+.menu-cart.final-cart .cart-summary {
+    flex: 1;
+}
+
+.menu-cart.final-cart .cart-summary {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: darkgray;
+    padding: 25px;
+}
+
+.menu-cart.final-cart .cart-summary div{
+    margin: 10px 0;
+}
+
+.menu-cart.final-cart .cart-summary .summary {
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu-cart.final-cart .cart-summary span {
+    float: right;
+}
